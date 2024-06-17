@@ -1,3 +1,7 @@
+# Made by kanibal & chatGPT
+# Made by kanibal & chatGPT
+# Made by kanibal & chatGPT
+
 import tkinter as tk
 from tkinter import messagebox
 import requests
@@ -64,3 +68,7 @@ button = tk.Button(frame, text="Download", command=on_submit)
 button.pack(pady=10)
 
 app.mainloop()
+
+# Made by kanibal & chatGPT
+# Made by kanibal & chatGPT
+# Made by kanibal & chatGPT
