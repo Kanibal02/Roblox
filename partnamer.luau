@@ -1,8 +1,8 @@
-local parts = Part Location Here -- Location of where your parts are located like a folder or model
-local customName = "Your Name of all parts" -- Name which you will name all of the parts
+local meshes = location
+local customName = "Name"
 
-for _, descendant in ipairs(parts) do
-	if descendant:IsA("TYPE OF YOUR PART!!") then
+for _, descendant in ipairs(meshes) do
+	if descendant:IsA("MeshPart") then
 		descendant.Name = customName
 	end
 end
